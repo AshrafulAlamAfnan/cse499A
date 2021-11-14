@@ -1,0 +1,57 @@
+
+      coin_NEM.csv
+
+loss='mse', optimizer='Adagrad'epochs=10,batch_size=32 rmse=6.86966
+loss='mse', optimizer='Adam'epochs=10,batch_size=32 rmse=5.93018
+loss='mae', optimizer='Adam'epochs=10,batch_size=32 rmse=5.8252
+loss='mae', optimizer='Adam'epochs=20,batch_size=64 rmse=5.8042
+loss='mae', optimizer='Adam'epochs=10,batch_size=32 rmse=5.5868
+loss='mae', optimizer='Adam'epochs=25,batch_size=32 rmse=5.5372
+loss='mae', optimizer='Adam'epochs=20,batch_size=32 rmse=5.4335
+loss='mae', optimizer='RMSprop'epochs=25,batch_size=32 rmse=5.0006
+loss='mae', optimizer='Adadelta'epochs=10,batch_size=32 rmse=1.8483
+loss='mae', optimizer='Adadelta'epochs=10,batch_size=64 rmse=0.8397
+
+        coin_cardano.csv
+
+loss='mae', optimizer='Adam'epochs=10,batch_size=32 rmse=6.1148
+loss='mae', optimizer='Adam'epochs=10,batch_size=64 rmse=5.7650
+loss='mse', optimizer='RMSprop'epochs=20,batch_size=64 rmse=5.2389
+loss='mse', optimizer='Adagrad'epochs=20,batch_size=32 rmse=5.2848
+loss='mse', optimizer='Adadelta'epochs=200,batch_size=64 rmse=5.0227
+loss='mae', optimizer='Adadelta'epochs=10,batch_size=64 rmse=0.2349
+loss='mse', optimizer='Adadelta'epochs=20,batch_size=64 rmse=0.15107
+
+ coin_ChainLink.csv
+
+loss='mse', optimizer='Adagrad'epochs=20,batch_size=32 rmse=6.5672
+loss='mse', optimizer='Adam'epochs=20,batch_size=32 rmse=6.2212
+loss='mse', optimizer='Adadelta'epochs=20,batch_size=32 rmse=0.4826
+loss='mse', optimizer='Adadelta'epochs=20,batch_size=64 rmse=0.2713
+loss='mse', optimizer='Adadelta'epochs=10,batch_size=64 rmse=0.1384
+
+coin_EOS.csv
+loss='mae', optimizer='Adam'epochs=10,batch_size=32 rmse=4.4642
+loss='mae', optimizer='RMSprop'epochs=10,batch_size=32 rmse=4.6712
+loss='mae', optimizer='Adadelta'epochs=10,batch_size=32 rmse=0.2766
+loss='mae', optimizer='Adadelta'epochs=10,batch_size=64 rmse=0.1928
+loss='mse', optimizer='Adadelta'epochs=10,batch_size=64 rmse=0.0816
+
+
+coin_Litecoin.csv
+loss='mae', optimizer='RMSprop'epochs=10,batch_size=32 rmse=5.4825
+loss='mse', optimizer='Adagrad'epochs=20,batch_size=64 rmse=5.4205
+loss='mse', optimizer='Adam'epochs=20,batch_size=64 rmse=4.9729
+loss='mse', optimizer='RMSprop'epochs=20,batch_size=32 rmse=4.7800
+loss='mae', optimizer='Adadelta'epochs=25,batch_size=64 rmse=3.1028
+loss='mse', optimizer='Adadelta'epochs=20,batch_size=32 rmse=1.7873
+loss='mse', optimizer='Adadelta'epochs=25,batch_size=64 rmse=1.5685
+loss='mse', optimizer='Adadelta'epochs=10,batch_size=32 rmse=1.1292
+loss='mse', optimizer='Adadelta'epochs=5,batch_size=32 rmse=0.3774
+
+
+
+
+
+
+
